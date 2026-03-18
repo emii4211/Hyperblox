@@ -9,7 +9,7 @@ I am sharing this simply for archival purposes—in case someone comes across it
 # Status
 Project State: Defunct / Shutdown
 
-Contents: Website source code (HTML) , Client Files
+Contents: Website source code (HTML), Client Files (2018M)
 
 # Link
 https://hyperbloxrevival.github.io/hyperblox/
