@@ -20,7 +20,7 @@
     <script>
         async function loadServers() {
             try {
-                let response = await fetch('servers.json'); // Sunucu listesini JSON'dan çek
+                let response = await fetch('servers.json'); 
                 let data = await response.json();
                 let serverSelect = document.getElementById('server');
                 
@@ -48,7 +48,7 @@
             window.location.href = url;
         }
         
-        loadServers(); // Sayfa açılınca sunucu listesini yükle
+        loadServers(); 
     </script>
 </body>
 </html>
