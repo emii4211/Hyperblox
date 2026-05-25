@@ -14,4 +14,3 @@ Contents: Website source code (HTML), Client Files (2018M)
 # Link
 https://hyperbloxrevival.github.io/hyperblox/
 
-**emirr4211 is here.**
