@@ -2,9 +2,97 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://hyperbloxrevival.github.io/hyperblox">
-    <title>Yükleniyor...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperBlox | Arşiv</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+        body {
+            margin: 0;
+            background-color: #050505;
+            color: #e0e0e0;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        /* Üst Kırmızı Işık */
+        .top-glow {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 4px;
+            background: #ff2a2a;
+            box-shadow: 0 0 25px 8px rgba(255, 42, 42, 0.5);
+        }
+
+        .container {
+            max-width: 700px;
+            padding: 40px;
+            text-align: left;
+        }
+
+        .status-pill {
+            display: inline-block;
+            padding: 5px 15px;
+            background: #1a0a0a;
+            border: 1px solid #ff2a2a;
+            color: #ff5555;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        h1 { font-size: 2.5rem; margin: 0 0 20px 0; color: #fff; }
+        h2 { color: #ff2a2a; margin-top: 30px; }
+        p { line-height: 1.6; color: #a0a0a0; }
+
+        .archive-box {
+            background: #0d0d0d;
+            border-left: 3px solid #333;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #555;
+            border-top: 1px solid #222;
+            padding-top: 20px;
+        }
+    </style>
 </head>
 <body>
+
+    <div class="top-glow"></div>
+
+    <div class="container">
+        <div class="status-pill">Durum: Kapandı / Arşivlendi</div>
+        <h1>HyperBlox Revival</h1>
+        
+        <p>HyperBlox, Roblox revival topluluğunun bir parçası olarak doğmuş, ancak maalesef başarılı olamamış bir projeydi. Proje, teknik ve operasyonel zorluklar nedeniyle kısa bir süre içinde çevrimdışı kalmak zorunda kaldı.</p>
+
+        <h2>Neden Buradayız?</h2>
+        <p>Bu proje uzun bir süre önce kapatıldı. Buradaki kaynak kodları, projenin nasıl göründüğünü incelemek isteyen geliştiriciler ve meraklılar için bir hatıra olarak arşivlenmiştir. Herhangi bir çalışan backend veya fonksiyonel bir oyun istemcisi içermemektedir.</p>
+
+        <div class="archive-box">
+            <strong>İçerik Detayları:</strong><br>
+            • Frontend: Web sitesi kaynak kodları (HTML/CSS)<br>
+            • Client: İstemci Dosyaları (2018M - Desteklenmez)
+        </div>
+
+        <div class="footer">
+            HyperBlox Archive Project &copy; 2026 | Sadece Eğitim Amaçlıdır.
+        </div>
+    </div>
+
 </body>
 </html>
